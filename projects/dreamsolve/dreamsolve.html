@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>DreamSolve | Aiden Deighton</title>
+
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../../index.html" class="logo">Aiden Deighton</a>
+            <ul>
+                <li><a href="../../projects.html">Projects</a></li>
+                <li><a href="../../cv/Aiden_Deighton_CV_2025.pdf" download>Download CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="project-detail">
+        <div class="project-header">
+            <h1>DreamSolve</h1>
+            <p>
+                DreamSolve is a prototype of a game concept designed to stimulate creativity in children.
+                Developed in Typescript using the PIXI.js framework, the game follows three friends on an
+                adventurous journey through a fantasy realm called DreamWorld.
+            </p>
+            <p>
+                The trio searches for a hidden treasure, but to find it, they must first recover thr four
+                scattered pieces of the treasure map. Along the way they face playful obstacles -steep cliffs,
+                towering mountains, and harmless but mysterious creatures.
+            </p>
+            <p>
+                To overcome these challenges, players can draw objects using colorful markers, such as a bridge
+                to cross a river, or write words in a magical notebook that brings items to life -perhaps even a
+                flying bathtub instead of a bridge.
+            </p>
+            <p>
+                Everything in DreamSolve is designed to encourage free thinking. There are no prescribed solutions;
+                children can create anything they imagine. Players also cannot fail -failing into a ravine simply
+                returns them to the start of the area without erasing their creations. This reinforces the idea
+                that mistakes are part of the creative process and should never feel discouraging.
+            </p>
+            <div class="project-tags">
+                <span>Typescript</span>
+                <span>PIXI.js</span>
+                <span>Web</span>
+            </div>
+        </div>
+
+        <div class="project-media">
+            <img src="../../projects/dreamsolve/img/dreamsolve3.png" alt="DreamSolve Screenshot 1"
+                class="clickable-img">
+            <img src="../../projects/dreamsolve/img/dreamsolve1.png" alt="DreamSolve Screenshot 2"
+                class="clickable-img">
+            <img src="../../projects/dreamsolve/img/dreamsolve2.png" alt="DreamSolve Screenshot 3"
+                class="clickable-img">
+        </div>
+
+        <div id="lightbox" onclick="closeLightbox()">
+            <img id="lightbox-img" src="" alt="Enlarged Screenshot">
+        </div>
+
+
+        <div class="project-description">
+            <h2>Project Context</h2>
+            <p>
+                DreamSolve was developed by a team of four students with the goal of combating the decline
+                in creativity commonly observed in children between the ages of seven and nine. Research shows
+                that young children gradually los creative confidence as they grow older -a loss that affects
+                their ability to think originally and solve problems later in life.
+            </p>
+            <p>
+                Our aim was to design a game that allows children to think independently, invent solutions, and
+                expirement freely without fear of failure. Through open-ended challenges and player-driven problem
+                solving, DreamSolve helps nurture imagination and creativity in a playful and accesible way.
+            </p>
+
+            <h2>My Role</h2>
+            <p>
+                Within our four-person team, my role focused on both research and technical development. I conducted
+                desk and field research on how to stimulate creativity in children aged 7 to 9, which helped shape the
+                game's concept and design direction.
+            </p>
+            <p>
+                On the technical side, I researched the possibilities of PIXI.js and developed multiple prototypes to
+                explore key gameplay systems. These prototypes included:
+            <ul>
+                <li>Player movement, supporting both keyboard and controller input.</li>
+                <li>Collision handling with the ground and other interactable objects.</li>
+                <li>Audio implementation, including creating the sound effects and music.</li>
+                <li>Level scrolling to lay the foundation for a larger world</li>
+            </ul>
+            </p>
+            <p>
+                These prototypes allowed the team to validate ideas quickly and ensured that the core mechanics were
+                technically feasible witin PIXI.js.
+            </p>
+
+            <div class="project-links">
+                <a href="https://aiddei.github.io/typescript-prototypes/index.html" class="btn" target="_blank">Play
+                    Prototypes</a>
+                <a href="../../projects.html" class="btn outline">Back to Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="../../js/lightbox.js"></script>
+
+</body>
+
+</html>

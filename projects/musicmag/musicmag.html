@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Music Magazine | Aiden Deighton</title>
+
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../../index.html" class="logo">Aiden Deighton</a>
+            <ul>
+                <li><a href="../../projects.html">Projects</a></li>
+                <li><a href="../../cv/Aiden_Deighton_CV_2025.pdf" download>Download CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="project-detail">
+        <div class="project-header">
+            <h1>Music Magazine</h1>
+            <p>
+                Music Magazine is a web application created for the course Programming 3. The goal of the assignment
+                was to load and display data from a JSON file using JavaScript. I chose music as the theme of my
+                application, resulting in an interactive mini-magazine filled with albums from various artists and
+                genres.
+            </p>
+            <p>
+                Each album includes detailed information and offers a short audio preview so users can quickly get
+                a feel for the music. Additionally, users can mark albums as favorites, creating a personalized list
+                of their preferred tracks and artists.
+            </p>
+            <p>
+                The project demonstrates my ability to work with JSON data, manipulate the DOM dynamically, and build
+                a clean, interactive user interface using only HTML, CSS and JavaScript.
+            </p>
+            <div class="project-tags">
+                <span>JavaScript</span>
+                <span>JSON</span>
+                <span>Web</span>
+            </div>
+        </div>
+
+        <div class="project-media">
+            <img src="../../projects/musicmag/img/music1.png" alt="Music Magazine Screenshot 1" class="clickable-img">
+            <img src="../../projects/musicmag/img/music2.png" alt="Music Magazine Screenshot 2" class="clickable-img">
+            <img src="../../projects/musicmag/img/music3.png" alt="Music Magazine Screenshot 3" class="clickable-img">
+        </div>
+
+        <div id="lightbox" onclick="closeLightbox()">
+            <img id="lightbox-img" src="" alt="Enlarged Screenshot">
+        </div>
+
+
+        <div class="project-description">
+            <div class="project-links">
+                <a href="../../projects.html" class="btn outline">Back to Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="../../js/lightbox.js"></script>
+
+</body>
+
+</html>
